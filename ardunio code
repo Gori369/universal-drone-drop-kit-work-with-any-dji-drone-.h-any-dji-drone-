@@ -6,7 +6,7 @@ const int servoPin = 3;
 const int ldrPin = A1;
 const int buttonPin = 4;
 
-int ldrThreshold = 300;
+int ldrThreshold = 1000;
 
 // Servo angle limits
 const int SERVO_MIN_ANGLE = 0;    // 0 degree
